@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <properties>
+        <exec.mainClass>ConvertFlvToMp4</exec.mainClass>
+    </properties>
+
+    <groupId>org.example</groupId>
+    <artifactId>Convert</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <!-- https://mvnrepository.com/artifact/org.bytedeco/javacpp -->
+    <dependencies>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacpp</artifactId>
+            <version>1.5.4</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.bytedeco/ffmpeg-platform -->
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>ffmpeg-platform</artifactId>
+            <version>4.3.1-1.5.4</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/ffmpeg -->
+        <dependency>
+            <groupId>org.bytedeco.javacpp-presets</groupId>
+            <artifactId>ffmpeg</artifactId>
+            <version>4.1-1.4.4</version>
+        </dependency>
+
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.bytedeco/ffmpeg &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.bytedeco</groupId>-->
+<!--            <artifactId>ffmpeg</artifactId>-->
+<!--            <version>4.3.1-1.5.4</version>-->
+<!--        </dependency>-->
+
+
+
+
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.bytedeco/javacv-platform &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.bytedeco</groupId>-->
+<!--            <artifactId>javacv-platform</artifactId>-->
+<!--            <version>1.5.4</version>-->
+<!--        </dependency>-->
+
+    </dependencies>
+</project>
